@@ -1,14 +1,16 @@
-Daily Commit Script
-Auto Commit
+# Daily Commit Script
+
+![Auto Commit](https://img.shields.io/badge/Auto%20Commit-Daily-brightgreen)
 
 This is a simple Batch script that automatically updates itself and performs a daily commit to a specified GitHub repository. The script will clone or pull the latest version of the script from the repository, replace the current script with the updated version, and commit and push changes to the GitHub repository every minute.
 
-Getting Started
+## Getting Started
+
 To use this script, follow the steps below:
 
-Clone this repository to your local machine.
-bash
-Copy code
+1. Clone this repository to your local machine.
+
+```bash
 git clone https://github.com/fragenabhishek/Daily-Commit.git
 Open the script.bat file in a text editor.
 
