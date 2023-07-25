@@ -27,6 +27,6 @@ git add .
 git commit -m "%commit_message%"
 git push origin main
 
-REM Wait for 1 hr before the next commit
+REM Wait for 1 hr before the next commit  -
 timeout /t 3600 >NUL
 goto START
